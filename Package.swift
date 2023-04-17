@@ -15,6 +15,9 @@ let package = Package(
         .target(
             name: "IGRPhotoTweaks",
             path: "IGRPhotoTweaks"
+              dependencies: [
+                .product(name: "UIKit", package: "com.apple.uikit")
+            ]
             
         )
     ]
