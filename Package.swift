@@ -14,11 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "IGRPhotoTweaks",
-            path: "IGRPhotoTweaks",
-            linkerSettings: [
-				.linkedFramework("UIKit")
-			]
-            
+            path: "IGRPhotoTweaks"
         )
     ]
 )
